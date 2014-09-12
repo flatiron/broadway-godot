@@ -1,0 +1,25 @@
+{
+  "name": "broadway-godot",
+  "version": "1.0.0",
+  "description": "Simple broadway plugin that hooks a godot instance to the broadway instance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/flatiron/broadway-godot.git"
+  },
+  "keywords": [
+    "godot",
+    "metrics",
+    "plugin",
+    "broadway"
+  ],
+  "author": "Jarrett Cruger <jcrugzz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flatiron/broadway-godot/issues"
+  },
+  "homepage": "https://github.com/flatiron/broadway-godot"
+}
