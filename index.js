@@ -21,6 +21,10 @@ exports.init = function (done) {
   var returned = false;
 
   this.godot.on('connect', function () {
+    if (returned) {
+      this.emit('godot:reconnect', 'info');
+      return;
+    }
     returned = true;
     this.emit('godot:connected', 'info')
     done();
