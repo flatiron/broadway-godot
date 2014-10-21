@@ -1,6 +1,6 @@
 {
   "name": "broadway-godot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple broadway plugin that hooks a godot instance to the broadway instance",
   "main": "index.js",
   "scripts": {
